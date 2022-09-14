@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+body {
+    margin: 0px;
+    font-size: 13px;
+    font-family : 'Bitter', Arial, sans-serif;
+}
+
+#logo {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.jumbotron {
+    height : 500px;
+    color: grey;
+    text-shadow: 1px 0 black;
+    background-image: url("images/prez.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    padding-top : 80px;
+}
