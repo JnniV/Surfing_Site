@@ -30,8 +30,9 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-    #card-points {
+    .flex-center {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
     }
   }
