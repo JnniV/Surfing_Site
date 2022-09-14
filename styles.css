@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
+* {
+    box-sizing: border-box;
+}
 body {
-    margin: 0px;
+    margin: 0;
     font-size: 13px;
     font-family : 'Bitter', Arial, sans-serif;
+    width: 100%;
 }
 
 #logo {
@@ -24,3 +28,10 @@ body {
 #header {
     padding-top : 80px;
 }
+
+@media only screen and (max-width: 800px) {
+    #card-points {
+      display: flex;
+      justify-content: center;
+    }
+  }
